@@ -1,0 +1,354 @@
+baseURL: 'https://daesavellano.github.io/dandalandan-portfolio/'
+title: Danielle Aira Savellano
+languageCode: en-us
+DefaultContentLanguage: en
+enableEmoji: true
+enableGitInfo: true
+enableRobotsTXT: true
+canonifyURLs: true
+paginate: 9
+darkmode_js:
+  - assets/js/darkmode.js
+enableInlineShortcodes: true
+
+
+markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      linkifyProtocol: https
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer:
+        apostrophe: '&rsquo;'
+        disable: false
+        ellipsis: '&hellip;'
+        emDash: '&mdash;'
+        enDash: '&ndash;'
+        leftAngleQuote: '&laquo;'
+        leftDoubleQuote: '&ldquo;'
+        leftSingleQuote: '&lsquo;'
+        rightAngleQuote: '&raquo;'
+        rightDoubleQuote: '&rdquo;'
+        rightSingleQuote: '&rsquo;'
+    parser:
+      attribute:
+        block: false
+        title: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+      wrapStandAloneImageWithinParagraph: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: false
+
+params:
+  author: Danielle Aira Savellano
+  # Resume section display control
+  resume:
+    show_title: false
+    show_description: true
+  # authorimage: ../assets/images/pages/healthcareanalytics2.png
+  motto: "Intersecting Health and Data"
+  description: "♡ Welcome to my personal portfolio."
+  disable_theme_toggle: false
+  disable_stay_uptodate: true
+  looping:
+    - "Intersecting Health and Data"
+    - "Applications of Artificial Intelligence"
+    - "Telling Stories with Data"
+    - "Public Interest Technology"
+    - "Data-Driven Policy"
+    - "Evidence-Based Solutions"
+    - "Community-Focused Programming"
+    - "Health Care Analytics"
+  p1:
+    heading: "About Me"
+    image: "../assets/images/pages/proofoflife.png"
+    content:
+      - text: "Hi, I'm Danielle (Dana)! I'm a passionate data analyst and healthcare advocate currently pursuing my M.S. in Health Care Analytics and Information Technology at Carnegie Mellon University's Heinz College, where I'm also a Public Policy and International Affairs Fellow."
+      - text: "My journey began with a strong foundation in Biology, Computer Science, and Global Health Studies from Allegheny College, where I graduated Summa Cum Laude and was recognized as a campus scholar and leader."
+      - text: "My mission is to bridge the gap between healthcare and technology through evidence-based, community-focused solutions. My previous experiences have equipped me with the skills to translate complex data into actionable insights that can improve healthcare outcomes and address real-world challenges."
+  p2:
+    heading: "Resume"
+    content:
+      - text: "Resume in progress..."
+    experience:
+      - title: "Leadership Program Coordinator"
+        organization: "Student Activities Committee, CMU Heinz College"
+        location: "Pittsburgh, PA"
+        period: "September 2024 - Present"
+        description:
+          - "Promote the Heinz Leadership Development Program through events, communications, and student engagement initiatives."
+          - "Collaborate with the Associate Director of Student Affairs to design and implement new programming ideas."
+          - "Curate supplemental leadership resources (reading lists, podcasts, articles, TED talks) to enrich student learning."
+          - "Monitor student progress toward program completion and maintained tracking systems."
+          - "Lead leadership treks, facilitating student connections with local organizations and cultural institutions."
+      - title: "Data Analyst and Technical Leader"
+        organization: "Allegheny College"
+        location: "Meadville, PA"
+        period: "November 2023 - May 2024"
+        description:
+          - "Cleaned and analyzed large datasets for longitudinal institutional review research using R"
+          - "Supported a 25-student Python Data Exploration class for students with and without computer science experience"
+          - "Conducted weekly office hours for general computer science and data analytics queries (Python, R, SQL, Stata)"
+      - title: "Counselor-Advocate"
+        organization: "Women's Services Inc."
+        location: "Meadville, PA"
+        period: "September 2021 - May 2024"
+        description:
+          - "Developed and managed Kids Club, a weekly after-school program for 1-4 shelter guests under 12 years old"
+          - "Assisted in curriculum development and outreach for 30+ students in 2 elementary schools and 1 technical college"
+      - title: "Bonner Service Scholar and Leadership Team Member"
+        organization: "Bonner Service Program, Allegheny College"
+        location: "Meadville, PA"
+        period: "August 2021 - May 2024"
+        description:
+          - "Interviewed and hosted information sessions for high school students and counselors, recruiting 16 new students"
+          - "Spearheaded 2-3 annual professional development opportunities for 40 students (i.e. headshots, resume reviews)"
+          - "Partnered with 5 local organizations to dedicate 580 personal service hours per year to support community needs"
+          - "Presented to donors via Zoom and personalized letters, highlighting donor impact on Bonner Summers of Service"
+    education:
+      - degree: "M.S. in Health Care Analytics and Information Technology"
+        institution: "Carnegie Mellon University"
+        year: "August 2024 - May 2026"
+        details: "Concentration in AI and Machine Learning, Public Policy and International Affairs Fellow, Heinz Leadership Development Program"
+        gpa: "Cumulative QPA: 3.99"
+      - degree: "B.S. in Biology, Minors in Computer Science and Global Health Studies"
+        institution: "Allegheny College"
+        year: "August 2021 - May 2025"
+        details: "Summa Cum Laude, Bonner Service Scholar, Beta Beta Beta Honor Society, Kappa Alpha Theta"
+        gpa: "Cumulative GPA: 3.95"
+      - degree: "Biology Core, Electives in Chemistry and Engineering"
+        institution: "Philippine Science High School - Main Campus"
+        year: "July 2015 - May 2021"
+        details: ""
+        gpa: ""
+    coursework:
+      graduate:
+        title: "Graduate Coursework"
+        courses: ["Database Management for Policy Analytics", "Healthcare Information Systems", "Applications of Natural Language Processing and Large Language Models", "Generative AI Lab", "Applied Econometrics", "Health Economics", "Accounting & Finance Analytics", "Intermediate Statistics", "Optimization", "Decision & Risk Modeling", "Discrete Event Simulation"]
+      undergraduate:
+        title: "Undergraduate Coursework"
+        courses: ["Database Systems", "Computational Expression", "Computer Organization", "Discrete Structures", "Programming Languages", "Global Health Data", "Genetics", "Microbiology", "Medical Anthropology and Health in Asia"]
+    skills:
+      - category: "Technical Skills"
+        items: ["SQL (Oracle, Postgres, SQLite)", "Python (pandas, numpy, seaborn, scikit-learn)", "R", "Tableau", "Git", "Stata", "Java", "C", "C++", "AnyLogic", "Assembly", "HTML/CSS"]
+    awards:
+      - award: "Heinz Leadership Development Program Achiever"
+        organization: "Carnegie Mellon University - Heinz College"
+        year: "April 2025"
+      - award: "Alyson Lawendowski Outstanding Community Service Award"
+        organization: "Allegheny College"
+        year: "April 2024"
+      - award: "Biology Outstanding Junior Major Prize"
+        organization: "Department of Biology, Allegheny College"
+        year: "April 2024"
+      - award: "Kappa Kappa Gamma Alumnae All-College Scholarship Award"
+        organization: "Allegheny College"
+        year: "April 2024"
+      - award: "Most Enthusiastic CIS Minor Award"
+        organization: "Department of Computer and Information Science, Allegheny College"
+        year: "April 2024"
+      - award: "The Bonner Foundation Award"
+        organization: "The Bonner Foundation"
+        year: "April 2024"
+      - award: "1st Place, Columbia University BEST Program Hackathon"
+        organization: "Columbia University Mailman School of Public Health"
+        year: "July 2023"
+      - award: "Beta Beta Beta Honor Society President"
+        organization: "Allegheny College"
+        year: "December 2022"
+      - award: "Distinguished Alden Scholar"
+        organization: "Allegheny College"
+        year: "October 2022"
+      - award: "Lambda Sigma Honor Society Secretary"
+        organization: "Allegheny College"
+        year: "May 2022"
+      - award: "Competent Researcher Award"
+        organization: "Philippine Science High School"
+        year: "May 2021"
+      - award: "Special Citation for Service in the Math Club"
+        organization: "Philippine Science High School"
+        year: "May 2021"
+      - award: "Special Citation in Engineering"
+        organization: "Philippine Science High School"
+        year: "May 2021"
+
+  p3:
+    heading: "Recent Activities and Projects"
+    content:
+      - text: "Over the years, I have been exposed to a variety of hands-on experiences. These include internships, research projects, and community initiatives that have shaped my professional journey."
+    links:
+      - text: See my previous projects here
+        url: "/projects"
+    logos:
+      - identifier: a
+        image: "images/global/logos/logo_see.png"
+        alt: "Heinz Leadership Development Program | Student Experience and Engagement Office"
+      - identifier: b
+        image: "images/global/logos/logo_acdhs.png"
+        alt: "Maternal Health Outcomes in Allegheny County Jail | AC Department of Human Services"
+      - identifier: c
+        image: "images/global/logos/logo_anylogic.png"
+        alt: "Modeling Patient Flows in Urgent Care with AnyLogic | CMU (Discrete Event Simulation)"
+      - identifier: d
+        image: "images/global/logos/logo_cmu.png"
+        alt: "Clustering and Diabetes Risk Visualization with R | CMU (Independent Study)"
+      - identifier: e
+        image: "images/global/logos/logo_ppia.png"
+        alt: "Black Maternal Mortality and Health Outcomes in Pennsylvania | CMU (PPIA Fellowship)"
+      - identifier: f
+        image: "images/global/logos/logo_acutec.png"
+        alt: "Reducing Waste in Aerospace: Analyzing Production Defects with SQL and Python | Allegheny College"
+      - identifier: g
+        image: "images/global/logos/logo_columbia.png"
+        alt: "Genetic Association Between Alzheimer's Disease and Cardiovascular Risk Factors | Columbia University (REU)"
+      - identifier: h
+        image: "images/global/logos/logo_kalfi.png"
+        alt: "Rural Service Project | Kalinangan Youth Foundation"
+  p4:
+    heading: "Public Interest Technology"
+    content:
+      - text: "As a scholar and service leader, I integrate my passion for community into my academic and professional pursuits. I am committed to using technology to address real-world challenges, and to promote equity and justice."
+      - text: "<strong>Click on the projects below to learn more!</strong>"
+  p5:
+    heading: "Stay Up to Date"
+    content:
+      - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque."
+    action: "#"
+    label: "Email address"
+    placeholder: "Enter your email"
+    button: "Notify me"
+
+  social_media:
+    github:
+      enabled: true
+      url: 'https://github.com/daesavellano'
+    facebook:
+      enabled: false
+      url: ''
+    instagram:
+      enabled: false
+      url: ''
+    twitter:
+      enabled: false
+      url: ''
+    linkedin:
+      enabled: true
+      url: 'https://www.linkedin.com/in/dansav/'
+    
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /dandalandan-portfolio/
+      weight: 10
+    - identifier: tswd
+      name: Telling Stories with Data
+      pre: dropdown
+      weight: 15
+    - identifier: contact
+      pre: complexdropdown
+      name: Contact
+      weight: 20
+    - identifier: email
+      name: Email
+      url: "mailto:dsavella@andrew.cmu.edu"
+      weight: 30
+  tswd:
+    - identifier: home
+      name: Home Page
+      url: /dandalandan-portfolio/tswd/
+      weight: 10
+    - identifier: dataviz
+      name: Data Viz Examples
+      url: /dandalandan-portfolio/tswd/dataviz/
+      weight: 20
+    - identifier: critique
+      name: Critique by Design
+      url: /dandalandan-portfolio/tswd/critique/
+      weight: 30
+    - identifier: project_1
+      name: Final Project Part 1
+      url: /dandalandan-portfolio/tswd/project_1/
+      weight: 40
+    - identifier: project_2
+      name: Final Project Part 2
+      url: /dandalandan-portfolio/tswd/project_2/
+      weight: 50
+    - identifier: project_3
+      name: Final Project Part 3
+      url: /dandalandan-portfolio/tswd/project_3/
+      weight: 60
+  contact:
+    - identifier: linkedin
+      pre: stars # can be stars, comments or piechart
+      name: LinkedIn
+      post: "Feel free to connect"
+      url: 'https://www.linkedin.com/in/dansav/'
+      weight: 10
+    - identifier: github
+      pre: comments # can be stars, comments or piechart
+      name: GitHub
+      post: "Check out my projects"
+      url: 'https://github.com/daesavellano'
+      weight: 20
+  footer:
+    - identifier: about
+      name: New
+      url: /about/
+      weight: 10
+    - identifier: blog
+      name: Features
+      url: /categories/blog/
+      weight: 20
+    - identifier: news
+      name: Coming
+      url: /categories/news/
+      weight: 30
+    - identifier: prose
+      name: Soon
+      url: /prose/
+      weight: 40
+    - identifier: email
+      name: Email
+      url: "mailto:dsavella@andrew.cmu.edu"
+      weight: 50
+
+taxonomies:
+  category: Categories
+  tag: Tags
+
+privacy:
+  disqus:
+    disable: false
+  googleAnalytics:
+    anonymizeIP: true
+    disable: false
+    respectDoNotTrack: false
+    useSessionStorage: false
+  instagram:
+    disable: false
+    simple: false
+  twitter:
+    disable: false
+    enableDNT: false
+    simple: false
+  vimeo:
+    disable: false
+    enableDNT: false
+    simple: false
+  youtube:
+    disable: false
+    privacyEnhanced: true
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.104.0"
