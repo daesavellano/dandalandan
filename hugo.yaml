@@ -249,6 +249,10 @@ menu:
       name: About
       url: /dandalandan-portfolio/
       weight: 10
+    - identifier: projects
+      name: Projects
+      url: /dandalandan-portfolio/projects/
+      weight: 10
     - identifier: tswd
       name: Telling Stories with Data
       pre: dropdown
@@ -301,21 +305,17 @@ menu:
       weight: 20
   footer:
     - identifier: about
-      name: New
-      url: /about/
+      name: About
+      url: /dandalandan-portfolio/
       weight: 10
-    - identifier: blog
-      name: Features
-      url: /categories/blog/
+    - identifier: projects
+      name: Projects
+      url: /dandalandan-portfolio/projects/
       weight: 20
-    - identifier: news
-      name: Coming
-      url: /categories/news/
+    - identifier: tswd
+      name: Telling Stories with Data
+      url: /dandalandan-portfolio/tswd/
       weight: 30
-    - identifier: prose
-      name: Soon
-      url: /prose/
-      weight: 40
     - identifier: email
       name: Email
       url: "mailto:dsavella@andrew.cmu.edu"
